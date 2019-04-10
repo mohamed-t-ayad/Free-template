@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<!-- for internetxplorer -->
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<!-- first mobile meta (to make the site responsive at mobile)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Home page</title>
+    	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    	<link rel="stylesheet" href="css/boot.css">
+    	<link rel="stylesheet" href="css/media.css">
+    	<link rel="stylesheet" href="css/defult-theme.css">
+    	<link rel="stylesheet" href="css/hover.css">
+    	<link rel="stylesheet" href="CSS/animate.css">
+    	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+    </head>
+    	<body>
+
+    	<!-- Start Section Tool box-->
+	   		<section class="option-box">
+	   			<div class="color-option">
+	   				<h4>Color Option</h4>
+	   				<ul class="list-unstyled">
+	   					<li data-value="css/defult-theme.css"></li>
+                        <li data-value="css/purpel-theme.css"></li>
+                        <li data-value="css/green-theme.css"></li>
+                        <li data-value="css/yellow-theme.css"></li>
+                        <li data-value="css/blue-theme.css"></li>
+	   				</ul>
+	   			</div>
+	   			<i class="fa fa-gear fa-3x gear-check"></i>
+	   		</section>	
+
+	   <!-- Start Section Tool box-->
+
+    	<!-- start our navbar-->
+		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+				      <a class="navbar-brand" href="#">Logo</a>
+				    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a href="boot.html">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="about.html">About us</a></li>
+		        <li><a href="#">FAQ</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servises <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Web Design</a></li>
+		            <li><a href="#">Programming</a></li>
+		            <li><a href="#">Desk top</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Web hosting</a></li>
+		          </ul>
+		        </li>
+			        <li><a href="#">Map</a></li>
+			        <li><a href="#">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<!-- end our navbar-->
+
+		<!-- Start Carsoul-->
+		<div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myslide" data-slide-to="0" class="active"> </li>
+		    <li data-target="#myslide" data-slide-to="1"> </li>
+		    <li data-target="#myslide" data-slide-to="2"> </li>
+		    <li data-target="#myslide" data-slide-to="3"></li>
+		  </ol>
+
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/01.jpg" alt="...">
+		      <div class="carousel-caption hidden-xs">
+		        <h1>Porgramming</h1>
+		        <p class="lead">Only one plugin per element via data attributes
+					Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p> 
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/02.jpg" alt="...">
+		      <div class="carousel-caption hidden-xs">
+		        <h1>Porgramming</h1>
+		        <p class="lead">Only one plugin per element via data attributes
+					Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/03.jpg" alt="...">
+		      <div class="carousel-caption hidden-xs">
+		        <h1>Porgramming</h1>
+		        <p class="lead">Only one plugin per element via data attributes
+					Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="images/04.jpg" alt="...">
+		      <div class="carousel-caption hidden-xs">
+		       <h1>Porgramming</h1>
+		        <p class="lead">Only one plugin per element via data attributes
+					Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal. To accomplish this, use a wrapping element.</p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	   <!-- end Carsoul-->
+
+	   <!-- Start Our section About-->
+	   <section class="about text-center wow bounceIn" data-wow-duration="2s">
+	   		<div class="container">
+			   	<h1>Meet Our Team</h1>
+			   	<p class="lead">Hello from <strong>Free</strong> template we have a new section with bootstrap about our team </p>
+	   		</div>
+	   </section>
+	   <!-- End Our section About-->
+
+	   <!-- Start Section Features-->
+	   		<section class="Features text-center">
+	   		  <div class="container">
+	   			<h2 class="h1">Our Features</h2>
+	   			<div class="row">
+	   				<div class="col-lg-3 col-md-6">
+	   					<div class="feat wow bounceInLeft" data-wow-duration="2s" data-wow-offset="300">
+		   					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+		   					<h4>100% Responsive</h4>
+		   					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+	   					</div>
+	   				</div>
+
+	   				<div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-duration="2s" data-wow-offset="300">
+	   					<div class="feat">
+		   					<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+		   					<h4>Retina Ready</h4>
+		   					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	   					</div>
+	   				</div>
+
+	   				<div class="col-lg-3 col-md-6">
+	   					<div class="feat wow bounceInDown" data-wow-duration="2s" data-wow-offset="200">
+		   					<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+		   					<h4>Awsome Display</h4>
+		   					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	   					</div>
+	   				</div>
+
+	   				<div class="col-lg-3 col-md-6">
+	   					<div class="feat wow bounceInRight" data-wow-duration="2s" data-offset="200">
+		   					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+		   					<h4>Well Documented</h4>
+		   					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	   					</div>
+	   				</div>
+	   			</div>
+	   		</section>
+	   <!-- End Section Features-->
+
+	   <!-- Start testimonial section-->
+	   		<section class="testimonial text-center wow flipInY" data-duration="1s" data-offset="400">
+	   		  	<div class="container">
+			   			<h2 class="h1">What Our Clients Say..?</h2>
+			   			  <!-- Start Testimonial Carsoul-->
+						<div id="testimonial-carsoul" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <div class="carousel-inner" role="listbox">
+
+						    <div class="item active">
+						        <p class="lead">Only one plugin per element via data attributes
+									Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal Only one plugin per element via data attributes</p>
+									<span>Ayad</span>
+						      </div>
+						    <div class="item">
+						        <p class="lead">Only one plugin per element via data attributes
+									Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal Only one plugin per element via data attributes</p>
+									<span>Adam</span>
+						    </div>
+						    <div class="item">
+						       <p class="lead"> Only one plugin per element via data attributes
+									Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal Only one plugin per element via data attributes</p>
+									<span>jhon</span>
+						    </div>
+						    <div class="item">				      
+						       <p class="lead"> Only one plugin per element via data attributes
+									Don't use data attributes from multiple plugins on the same element. For example, a button cannot both have a tooltip and toggle a modal Only one plugin per element via data attributes</p>
+									<span>Albert</span>
+						    </div>
+						  </div>
+							  <ol class="carousel-indicators">
+							    <li data-target="#testimonial-carsoul" data-slide-to="0" class="active">
+							    	<img src="images/avatar_01.jpg" alt="pic 1">
+							    </li>
+							    <li data-target="#testimonial-carsoul" data-slide-to="1">
+							    	<img src="images/avatar_02.jpg" alt="pic 2">
+							    </li>
+							    <li data-target="#testimonial-carsoul" data-slide-to="2">
+							    	<img src="images/avatar_03.jpg" alt="pic 3">
+							    </li>
+							    <li data-target="#testimonial-carsoul" data-slide-to="3">
+							    	<img src="images/avatar_04.jpg" alt="pic 4">
+							    </li>
+							  </ol>
+						</div>
+					   <!-- end  Testimonial Carsoul-->
+			   	</div>
+	   		</section>
+	   <!-- End testimonial section-->
+
+	   <!-- start section price table-->
+	   		<section class="price-table text-center">
+	   			<div class="container">
+	   				<h2 class="h1">Our Amazing Price</h2>
+	   				<div class="row">
+	   					<div class="col-md-3 col-sm-6 col-xm-12">
+	   					    <div class="price-box wow fadeInUp" data-duration="2s" data-offset="400">
+	   					    	<h3 class="text-primary">plane #1</h3>
+	   					    	<p class="center-block">40$</p>
+	   					    	<ul class="list-unstyled">
+	   					    		<li>Space: 30Gb</li>
+	   					    		<li>Emails: 20</li>
+	   					    		<li>ips: 2 IP</li>
+	   					    		<li>Databases: 10</li>
+	   					    		<li>Ftb accounts: 5</li>
+	   					    	</ul>
+	   					    	<a href="#" class="btn btn-primary">Order Now</a>
+	   					    </div>
+	   					</div>
+
+	   					<div class="col-md-3 col-sm-6 col-xm-12">
+	   					    <div class="price-box wow fadeInDown" data-duration="2s" data-offset="400">
+	   					    	<h3 class="text-info">plane #2</h3>
+	   					    	<p class="center-block">60$</p>
+	   					    	<ul class="list-unstyled">
+	   					    		<li>Space: 30Gb</li>
+	   					    		<li>Emails: 20</li>
+	   					    		<li>ips: 2 IP</li>
+	   					    		<li>Databases: 10</li>
+	   					    		<li>Ftb accounts: 5</li>
+	   					    	</ul>
+	   					    	<a href="#" class="btn btn-info">Order Now</a>
+	   					    </div>
+	   					</div>
+
+	   					<div class="col-md-3 col-sm-6 col-xm-12">
+	   					    <div class="price-box wow fadeInUp" data-duration="2s" data-offset="400">
+	   					    	<h3 class="text-danger">plane #3</h3>
+	   					    	<p class="center-block">54$</p>
+	   					    	<ul class="list-unstyled">
+	   					    		<li>Space: 30Gb</li>
+	   					    		<li>Emails: 20</li>
+	   					    		<li>ips: 2 IP</li>
+	   					    		<li>Databases: 10</li>
+	   					    		<li>Ftb accounts: 5</li>
+	   					    	</ul>
+	   					    	<a href="#" class="btn btn-danger">Order Now</a>
+	   					    </div>
+	   					</div>
+
+	   					<div class="col-md-3 col-sm-6 col-xm-12">
+	   					    <div class="price-box wow fadeInDown" data-duration="2s" data-offset="400">
+	   					    	<h3 class="text-success">plane #4</h3>
+	   					    	<p class="center-block">33$</p>
+	   					    	<ul class="list-unstyled">
+	   					    		<li>Space: 30Gb</li>
+	   					    		<li>Emails: 20</li>
+	   					    		<li>ips: 2 IP</li>
+	   					    		<li>Databases: 10</li>
+	   					    		<li>Ftb accounts: 5</li>
+	   					    	</ul>
+	   					    	<a href="#" class="btn btn-success">Order Now</a>
+	   					    </div>
+	   					</div>
+	   				</div>
+	   			</div>
+	   		</section>
+	   <!-- End section price table-->
+
+	   <!-- Start section Our Team-->
+	   		<section class="our-team text-center">
+	   		  	<div class="team">
+	   				<div class="container">
+	   					<h2 class="h1">Meet Our Awesome Team</h2>
+	   						<div class="row">
+	   							<div class="col-lg-3 col-sm-6">
+	   								<div class="person">
+	   									<img class="img-circle" src="images/per1.jpg" alt="Leah coulver" width="180" height="180">
+	   									<h3>Leah coulver</h3>
+	   									<p>This is Leah coulver tha amazing hacker woman in the worled</p>
+	   									<i class="fa fa-google-plus-square fa-2x"></i>
+	   									<i class="fa fa-facebook-square fa-2x"></i>
+	   									<i class="fa fa-twitter-square fa-2x"></i>
+	   									<i class="fa fa-youtube-square fa-2x"></i>
+	   								</div>
+	   							</div>
+
+	   							<div class="col-lg-3 col-sm-6">
+	   								<div class="person">
+	   									<img class="img-circle" src="images/per3.jpg" alt="cristin" width="180" height="180">
+	   									<h3>Cristin arabi</h3>
+	   									<p>This is Cristin the bobonaya of our team and official about jquery</p>
+	   									<i class="fa fa-google-plus-square fa-2x"></i>
+	   									<i class="fa fa-facebook-square fa-2x"></i>
+	   									<i class="fa fa-twitter-square fa-2x"></i>
+	   									<i class="fa fa-youtube-square fa-2x"></i>
+	   								</div>
+	   							</div>
+
+	   							<div class="col-lg-3 col-sm-6">
+	   								<div class="person">
+		   								<img class="img-circle" src="images/per2.jpg" alt="Adam" width="180" height="180" >
+		   								<h3>Adam statham</h3>
+		   								<p>This Adam the official aboit bootstrap designs and its responsive</p>
+		   								<i class="fa fa-google-plus-square fa-2x"></i>
+	   									<i class="fa fa-facebook-square fa-2x"></i>
+	   									<i class="fa fa-twitter-square fa-2x"></i>
+	   									<i class="fa fa-youtube-square fa-2x"></i>
+									</div>
+	   							</div>
+
+	   							<div class="col-lg-3 col-sm-6">
+	   								<div class="person">
+		   								<img class="img-circle" src="images/per4.jpg" alt="Zeinab" width="180" height="180">
+		   								<h3>Marissa mayer</h3>
+		   								<p>This is Marissa mayr ana amazing woman at hacking systems </p>
+		   								<i class="fa fa-google-plus-square fa-2x"></i>
+	   									<i class="fa fa-facebook-square fa-2x"></i>
+	   									<i class="fa fa-twitter-square fa-2x"></i>
+	   									<i class="fa fa-youtube-square fa-2x"></i>
+	   								</div>
+	   							</div>
+	   						</div>
+	   				</div>
+	   		 	</div>	
+	   		</section>
+	   <!-- End section Our Team-->
+
+	   <!-- start section subscribe-->
+	   		<section class="subscribe text-center">
+	   			<div class="container">
+	   				<h2 class="h1">Keep in Touch</h2>
+	   				<p class="lead">Sing up t keep in touch with our team you will know more </p>
+	   				<form class="form-inline">
+	   					<input class="form-control input-lg" type="text" placeholder="Write Your E-mail">
+	   					<button class="btn btn-danger btn-lg"><i class="fa fa-edit lg"></i>Subscribe</button>
+	   				</form>
+	   			</div>
+	   		</section>
+
+
+	   <!-- End section subscribe-->
+
+	   <!--start section stats-->
+	   		<section class="Statistics text-center">
+	   			<div class="data">
+	   				<div class="container">
+	   					<h2 class="h1">Our Statistics</h2>
+	   					<div class="row">
+	   						<div class="col-lg-3 col-sm-6">
+	   							<div class="stats">
+	   								<i class="fa fa-users fa-5x"></i>
+	   								<p>9,555</p>
+	   								<span>Satisfied Users</span>
+	   							</div>
+	   						</div>
+
+	   						<div class="col-lg-3 col-sm-6">
+	   							<div class="stats">
+	   								<i class="fa fa-comments fa-5x"></i>
+	   								<p>25,600</p>
+	   								<span>Posted Comments</span>
+	   							</div>
+	   						</div>
+
+	   						<div class="col-lg-3 col-sm-6">
+	   							<div class="stats">
+	   								<i class="fa fa-suitcase fa-5x"></i>
+	   								<p>3,125</p>
+	   								<span>Projects Done</span>
+	   							</div>
+	   						</div>
+
+	   						<div class="col-lg-3 col-sm-6">
+	   							<div class="stats">
+	   								<i class="fa fa-support fa-5x"></i>
+	   								<p>30,000</p>
+	   								<span>Tickests Archived</span>
+	   							</div>
+	   						</div>
+	   					</div>
+	   				</div>
+	   			</div>
+	   		</section>
+
+	   <!--End section stats-->
+
+	   <!-- start our skills-->
+	   		<section class="our-skills">
+	   			<div class="container">
+	   				<h2 class="text-center h1">Our Skills</h2>
+	   				<div class="row">
+	   				  <!-- Start progress skills-->
+	   					<div class="col-md-5">
+	   						<div class="skills-progress">
+	   							<div class="progress">
+	   								<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100%" style="width:85%" >
+	   									Html5 / css3
+	   								</div>
+	   							</div>
+
+	   							<div class="progress">
+	   								<div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40%" aria-valuemin="0" aria-valuemax="100%" style="width:40%" >
+	   									php / mysql
+	   								</div>
+	   							</div>
+
+	   							<div class="progress">
+	   								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="73%" aria-valuemin="0" aria-valuemax="100%" style="width:73%" >
+	   									jquery
+	   								</div>
+	   							</div>
+
+	   							<div class="progress">
+	   								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100%" style="width:25%" >
+	   									Wordpress
+	   								</div>
+	   							</div>
+
+	   						</div>
+	   					</div>
+	   					<!-- Start progress skills-->
+
+	   					<!-- Start team info-->
+	   					<div class="col-md-6 col-md-offset-1">
+	   						<div class="team-info">
+	   							<h3>About The Team</h3>
+	   							<p class="lead">We are specialised Designing and programming team passionate About web design and creating digital ideas we will transfare your idea to a digital dream and make your dream coming true</p>
+	   							<button type="button" class="btn btn-primary">Talk to Professional</button>
+	   						</div>
+	   					</div>
+	   					<!-- Start team info-->
+	   				</div>
+	   			</div>
+	   		</section>
+	   <!-- End our skills-->
+
+	   <!--start section contact us-->
+	   		<section class="contact-us text-center">
+	   			<div class="fields">
+	   				<div class="container">
+		   				<div class="row">
+		   					<i class="fa fa-headphones fa-5x"></i>
+		   					<h2 class="h1">Tell Us What You Feel</h2>
+		   					<p class="lead">Fell Free To Contact us any Time</p>
+
+		   					<!-- Start Contact Form-->
+								<form role="form">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control input-lg" placeholder="UserName">
+										</div>
+
+										<div class="form-group">
+											<input type="text" class="form-control input-lg" placeholder="Email">
+										</div>
+
+										<div class="form-group">
+											<input type="text" class="form-control input-lg" placeholder="PhoneNumber">
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<textarea class="form-control input-lg" placeholder="Your message"></textarea>
+										</div>
+										<button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+									</div>
+								</form>
+		   					<!-- End Contact Form-->
+	   					</div>
+	   				</div>
+	   			</div>
+	   		</section>
+	   <!--End section contact us-->
+
+	   <!-- Start section Our Clients-->
+	   		<section class="our-clients">
+	   			<div class="container">
+	   				<div class="row">
+	   					<ul class="list-unstyled">
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/dwpf-logo.png" alt="DWPF">
+	   						</li>
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/facebook.jpg" alt="facebook">
+	   						</li>
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/Hdx.png" alt="Hdx">
+	   						</li>
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/linkedInLogo.png" alt="linkedIn">
+	   						</li>
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/pelican-logo-2014.png" alt="pelican">
+	   						</li>
+	   						<li class="col-md-2 col-xs-4">
+	   							<img class="img-responsive center-block" src="images/Clients/TheRundown.jpg" alt="TheRundown">
+	   						</li>
+	   					</ul>
+	   				</div>
+	   			</div>
+	   		</section>
+	   <!-- end section Our Clients-->
+
+	   <!--Start Footer-->
+	   		<section class="footer">
+	   			<div class="container">
+	   				<div class="row">
+	   					<div class="col-lg-4 col-md-6">
+	   						<h3>Site Map</h3>
+	   						<ul class="list-unstyled three-colums">
+	   							<li>Home</li> 
+	   							<li>About</li>
+	   							<li>Company</li>
+	   							<li>Code </li>
+	   							<li>Design</li>
+	   							<li>Host</li>
+	   							<li>Solutions</li>
+	   							<li>Site Map</li>
+	   							<li>Contact</li>
+	   						</ul>
+	   						<ul class="list-unstyled social-list">
+	   							<li><img src="images/social/facebook.jpg" alt="facebook"></li>
+	   							<li><img src="images/social/google-plus.jpg" alt="google-plus"></li>
+	   							<li><img src="images/social/Linked In.jpg" alt="Linked-in"></li>
+	   							<li><img src="images/social/rss.jpg" alt="rss"></li>
+	   							<li><img src="images/social/Twitter.jpg" alt="Twitter"></li>
+	   							<li><img src="images/social/youtube.jpg" alt="You Tube"></li>
+	   						</ul>
+	   					</div>
+
+	   					<div class="col-lg-4 col-md-6">
+	   						<h3>Latest Articals</h3>
+	   						<div class="media">
+	   							<a class="pull-left" href="#">
+	   								<img class="media-object" src="images/article/art1.png" alt="img1">
+	   							</a>
+	   							<div class="media-body">
+	   								<h4 class="media-heading">Programming</h4>
+	   								this is Paragraph wich is talking about articles at bootstrsp
+	   							</div>
+	   						</div>
+
+	   						<div class="media">
+	   							<a class="pull-left" href="#">
+	   								<img class="media-object" src="images/article/art2.png" alt="img2">
+	   							</a>
+	   							<div class="media-body">
+	   								<h4 class="media-heading">Coding</h4>
+	   								this is Paragraph wich is talking about articles at bootstrsp
+	   							</div>
+	   						</div>
+
+	   						<div class="media">
+	   							<a class="pull-left" href="#">
+	   								<img class="media-object" src="images/article/art3.png" alt="img3">
+	   							</a>
+	   							<div class="media-body">
+	   								<h4 class="media-heading">Design</h4>
+	   								this is Paragraph wich is talking about articles at bootstrsp
+	   							</div>
+	   						</div>
+	   					</div>
+
+	   					<div class="col-lg-4">
+	   						<h3>Our Awsome Work</h3>
+	   						<img class="img-thumbnail" src="images/Work/01.jpg" alt="img 01">
+	   						<img class="img-thumbnail" src="images/Work/02.jpg" alt="img 02">
+	   						<img class="img-thumbnail" src="images/Work/03.jpg" alt="img 03">
+	   						<img class="img-thumbnail" src="images/Work/04.jpg" alt="img 04">
+	   					</div>
+	   				</div>
+	   			</div>
+	   			<div class="copyright text-center">
+	   				Copyright &copy; 2016 <span>Template</span>
+	   			</div>
+	   		</section>
+	   <!--End Footer-->
+                
+       <!-- Start Section Loading
+               <section class="loading-over-lay">
+                 <h2 class="h1">The website is loading now</h2>
+               </section>
+        <!--End Sesction Loading -->
+         
+		<!--Start Scroll To Top-->
+			<div id="scroll-top">
+				<i class="fa fa-chevron-up fa-3x"></i>
+			</div>
+		
+		<!--End Scroll To Top-->  
+                
+                
+		<script src="js/jquery-3.1.1.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/plugin.js"></script>
+    	<script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+    	</body>
+</html>

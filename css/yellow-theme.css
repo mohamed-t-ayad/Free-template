@@ -1,0 +1,30 @@
+/****Start defaul theme****/
+
+.option-box .color-option ,
+.testimonial .carousel-indicators li.active
+ {
+	border: 3px solid #908c0a;
+}
+.dropdown-menu {
+	border-top: 3px solid #908c0a;
+
+}
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus,
+.option-box .gear-check ,
+.dropdown-menu > li > a:hover ,
+.dropdown-menu > li > a:focus ,
+.carousel-indicators .active
+{
+	background-color: #908c0a;
+ }
+
+.about h1 span,
+.testimonial span,
+.footer h3,
+ .footer .copyright span 
+ {
+	color: #908c0a;
+}
+/****End defaul theme****/

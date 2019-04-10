@@ -1,0 +1,355 @@
+body {
+	padding-top: 60px;
+}
+/********* Start over writing bootstrap******/
+h1 , h2 , h3 ,h4 ,.lead {font-family: 'Droid Sans', sans-serif;}
+/*Start Section Tool Box*/
+.option-box {
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+.option-box .color-option {
+	float: left;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+	display: none;
+}
+.option-box .color-option ul li {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check{
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+/*End Section Tool Box*/
+
+/*  Start main navbar*/
+.navbar {min-height: 60px;}
+
+/* navbar link*/
+ .navbar-default .navbar-nav > li > a {
+ 	color: #aaa;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	font-size: 16px;
+ }
+ /* Brand name*/
+ .navbar-inverse .navbar-brand {
+ 	color: #bbb;
+ 	font-size: 30px;
+ 	line-height: 40px;
+ }
+
+ /* drop down menu*/
+ .dropdown-menu {background-color: #222;min-width: 180px}
+ .navbar-right .dropdown-menu {right: auto;left: 0}
+.dropdown-menu > li > a {
+    color: #fff;
+ 	padding-left: 6px 25px;
+    -webkit-transition: padding  0.6s ease-in-out;
+	-moz-transition: padding 0.6s ease-in-out;
+	-o-transition: padding  0.6s ease-in-out;
+	transition: padding 0.6s ease-in-out; 
+}
+.dropdown-menu > li > a:hover ,
+ .dropdown-menu > li > a:focus {color: #fff;padding-left: 25px}
+
+ /*change divider color */
+ .dropdown-menu .divider {background-color: #882d2d}
+ /* navbar toggle*/
+ .navbar-toggle {margin-top: 18px}
+
+ /*corousel caption*/
+ .carousel-caption {bottom: 70px;background: rgba(3,3,3,.2)}
+ .carousel-indicators {bottom: 0}
+ .carousel-indicators li {
+ 	height: 15px;
+ 	width: 15px;
+ 	border: 1px solid #eee;
+ }
+ .carousel-indicators .active {height: 17px;width: 17px}
+.carousel-inner > .item > img { width: 100%}
+ /* Start Section About */
+.about {padding-top: 60px;padding-bottom: 60px;}
+.about .lead {color: #888;font-size: 20px;margin-top: 15px}
+.about .h1 {font-weight: bold}
+ /*End Section About*/
+
+ /*Start section features*/
+.Features {
+	background-color: #eee;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Features  .feat{margin-bottom: 30px}
+.Features  .feat p {line-height: 1.8}
+.Features .feat span.glyphicon {font-size: 20px;margin-bottom: 10px;color: #666}
+ /*End section features*/
+
+ /*Start testimonial section*/
+.testimonial {padding-top: 50px;padding-bottom: 50px}
+.testimonial .lead {line-height: 2em;/*2em = 32px*/margin-bottom: 10px}
+.testimonial span {font-size: 18px;font-weight: bold}
+.testimonial .carousel-inner{min-height: 160px}
+.testimonial .carousel-indicators {
+	position: static;
+	width: 100%;
+	margin-left: auto;
+	padding-top: 20px;
+}
+.testimonial .carousel-indicators li{
+	text-indent: 0;
+	width: 80px;
+	height: 80px;
+	opacity: .4;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;
+}
+.testimonial .carousel-indicators li.active {
+	width: 80px;
+	height: 80px;
+	opacity: 1;
+	background : none;
+}
+.testimonial .carousel-indicators li img {max-width: 100%}
+/*End testimonial section*/
+
+/*Start sectin Price table*/
+.price-table {
+	background-color: #eee;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.price-table .price-box {
+	background:#fff;
+	padding: 4px;
+	border: 1px solid #DDD;
+	margin-bottom: 15px;
+}
+.price-table .price-box:hover p{
+	-webkit-transform: scale(1.1,1.1) rotate(360deg);
+	-moz-transform: scale(1.1,1.1) rotate(360deg);
+	-o-transform: scale(1.1,1.1) rotate(360deg);
+	transform: scale(1.1,1.1) rotate(360deg);
+	border: 2px solid #DFDFDF;
+}
+.price-table .price-box h3 {margin: 5px 0 15px }
+.price-table .price-box p {
+	font-size: 35px;
+	font-weight: bold;
+	color: #666;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	background-color: #f3f3f3;
+	border: 2px solid #FFF;
+}
+.price-table .price-box ul {line-height: 250%;font-size: 18px}
+.price-table .price-box a {margin-bottom: 5px}
+/*End sectin Price table*/
+
+/*Start section our team*/
+.our-team {
+	background: url(../images/test.jpg) no-repeat center center fixed;
+	width: 100%;
+	min-height: 600px;
+}
+.our-team .team {
+	background: rgba(2,2,2,0.5);
+	color: #fff;
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.our-team .person {margin-bottom: 40px}
+/*End section our team*/
+
+/*Start section subscribe*/
+.subscribe {
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background :#eee;
+}
+.subscribe .h1 {
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.subscribe p {margin-bottom: 30px}
+.subscribe .form-control {
+	border-radius: 0;
+	margin-right: -5px;
+	width: 300px;
+}
+.subscribe button {border-radius: 0}
+/*End section subscribe*/
+
+/* Start statistics*/
+.Statistics {
+	background: url(../images/team.jpg) no-repeat center center fixed;
+	min-height: 300px;
+}
+.Statistics .data {
+	background-color: rgba(2,2,2,.4);
+	color: #b6b5b5;
+	min-height: 300px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.Statistics .stats {margin-bottom: 30px}
+.Statistics .stats:hover {color: #fff}
+.Statistics p {
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.Statistics span {font-size: 18px}
+/*End satatistics*/
+/* Start Section Our Skills*/
+.our-skills {padding-top: 40px;padding-bottom: 60px}
+.our-skills h3 {font-weight: bold;margin-top: 0}
+.our-skills .progress {height: 36px}
+.our-skills .progress-bar {
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+}
+/* End Section Our Skills*/
+
+/*start section contact us*/
+.contact-us {
+	background: url(../images/contact.jpg) no-repeat center center fixed;
+	min-height: 300px;
+}
+.contact-us .fields {
+	background: rgba(9,9,9,0.7);
+	min-height: 300px;
+	color: #ddd;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.contact-us p {margin-bottom: 40px;}
+.contact-us textarea {height: 108px}
+.contact-us input[type="text"],
+.contact-us textarea {
+	background: rgba(82,78,78,0.5);
+	color: #fff;
+	border: none;
+}
+/*End section contact us*/
+
+/*Start section our clients*/
+.our-clients {background: #eee;padding-top: 20px;padding-bottom: 20px;}
+.our-clients img {opacity: 0.4;margin-top: 20px;margin-bottom: 20px}
+.our-clients img:hover {opacity: 1}
+/*End section our clients*/
+
+/*Start Footer*/
+.footer {
+	background: #444;
+	color: #aaa;
+	padding-top: 20px;
+}
+.footer a {color: #aaa}
+.footer a:hover {color: #fff}
+.footer h3 {letter-spacing: 1px;margin: 30px 0 20px}
+.footer .three-colums {overflow: hidden}
+.footer .three-colums li {
+	width: 33.3333%;
+	float: left;
+	padding: 5px;
+}
+.footer .social-list {overflow: hidden;margin: 20px 0 10px}
+.footer .social-list li {
+	float: left;
+	margin-right: 3px;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+.footer .social-list li:hover {opacity: 1}
+.footer .img-thumbnail {
+	background: rgba(0,0,0,.2);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+.footer .copyright {
+	background: #222;
+	color: #eee;
+	padding: 15px 0 ;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+/*End Footer*/
+
+/*Start Section Loading 
+.loading-over-lay {
+    background: #222;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+/*End Section Loading*/
+
+/*Start Scroll-up*/
+#scroll-top {
+	width: 50px;
+	height: 40px;
+	color: #ddd;
+	background-color: #272727;
+	text-align: center;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	cursor: pointer;
+	z-index: 99999;
+	display: none;
+}
+#scroll-top:hover {background-color: #444}
+/*End Scroll-up*/
+
+/*Start gloping system*/
+.contact-us,.Statistics ,.our-team {
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.Features .h1, .Features .h1,
+.testimonial .h1,
+.price-table .h1,
+.our-team .h1,
+.Statistics .h1, 
+.our-skills .h1 {
+    margin-bottom: 50px;
+}
+
+.footer .social-list li,
+.our-clients img,
+.Statistics .stats,
+.price-table .price-box p,
+.testimonial .carousel-indicators li{
+    -webkit-transition: all  0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all  0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+/*End gloping system*/
